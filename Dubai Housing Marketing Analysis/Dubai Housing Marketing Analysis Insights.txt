@@ -1,0 +1,29 @@
+Investment Analysis:
+Insight-1 : This scatter plot shows the relationship between property size and price. I observed that some of the larger properties are priced higher. 
+Insight-2 : Rural areas show undervalued properties with larger sizes at lower prices.
+Insight-3 : larger properties are always expensive because price always increases with Size.
+
+
+Price per Sqft Analysis:
+Insight-1 : This chart highlights price per square foot across neighborhoods. Suburban areas have the lowest price per square feet. Areas with lower price per square feet represent undervalued regions and are ideal for investment.” 
+Insight-2 :Urban areas show the highest price per square feet represent overpriced.
+Insight-3 : Investors should focus on suburban and rural areas due to lower cost per square feet and higher growth potential.
+
+Location Insights:
+Insight-1 : This chart shows Urban area represent premium markets with higher pricing.
+Insight-2 : Suburban are Affordable areas identified based on lower average property prices across neighborhoods.
+Insight-3 : Pricing varies significantly by neighborhood, showing that location plays a major role in determining property value 
+
+
+Demand Analysis :
+Insight-1 : This chart shows that mid-sized properties, particularly 2–4 bedroom units are more common than very small or large properties.
+Insight-2 : 3 and 5-bedroom properties dominate the market, indicating highest demand.
+
+Pricing trend by Bedrooms:
+Insight -1: This chart shows that property prices increase with the number of bedrooms, indicating a positive correlation between size and price.”
+
+Property Age Analysis:
+Insigt-1 : Newer properties tend to command less prices, while older properties are relatively expensive and overvalued.
+Insight-2: Very Old properties fall in the highest price category.
+
+This dashboard helps investors identify profitable opportunities, enables agents to focus on high-demand properties, and supports policymakers in making data-driven planning decisions.
