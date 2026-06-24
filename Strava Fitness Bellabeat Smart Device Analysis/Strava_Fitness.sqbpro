@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/Harika challa/SQLITE-3/Strava_Fitness.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="8854"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><table title="dailyActivity_cleaned" custom_title="0" dock_id="19" table="4,21:maindailyActivity_cleaned"/><dock_state state="000000ff00000000fd00000001000000020000034c00000224fc0100000001fc000000000000034c0000015c00fffffffa0000000c0100000015fb000000160064006f0063006b00420072006f00770073006500310000000000ffffffff0000000000000000fb000000160064006f0063006b00420072006f00770073006500340000000000ffffffff0000000000000000fb000000160064006f0063006b00420072006f00770073006500350000000000ffffffff0000000000000000fb000000160064006f0063006b00420072006f00770073006500360000000000ffffffff0000000000000000fb000000160064006f0063006b00420072006f00770073006500370000000000ffffffff0000000000000000fb000000180064006f0063006b00420072006f007700730065003100320000000000ffffffff0000000000000000fb000000180064006f0063006b00420072006f007700730065003100330000000000ffffffff0000000000000000fb000000180064006f0063006b00420072006f007700730065003100340000000000ffffffff0000000000000000fb000000180064006f0063006b00420072006f007700730065003100350000000000ffffffff0000000000000000fb000000180064006f0063006b00420072006f007700730065003100360200000005000000750000034c00000211fb000000180064006f0063006b00420072006f007700730065003100370000000000ffffffff0000000000000000fb000000180064006f0063006b00420072006f007700730065003100380000000000ffffffff0000000000000000fb000000180064006f0063006b00420072006f007700730065003100390100000000ffffffff0000015c00fffffffb000000180064006f0063006b00420072006f007700730065003200300000000000ffffffff0000000000000000fb000000180064006f0063006b00420072006f007700730065003200310000000000ffffffff0000000000000000fb000000180064006f0063006b00420072006f007700730065003200320000000000ffffffff0000000000000000fb000000180064006f0063006b00420072006f007700730065003200330000000000ffffffff0000000000000000fb000000160064006f0063006b00420072006f00770073006500380000000000ffffffff0000000000000000fb000000160064006f0063006b00420072006f00770073006500390000000000ffffffff0000000000000000fb000000180064006f0063006b00420072006f007700730065003100300000000000ffffffff0000000000000000fb000000180064006f0063006b00420072006f007700730065003100310000000000ffffffff00000000000000000000034c0000000000000004000000040000000800000008fc00000000"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="dailyActivity_cleaned" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="85"/><column index="2" value="85"/><column index="3" value="67"/><column index="4" value="156"/><column index="5" value="156"/><column index="6" value="148"/><column index="7" value="148"/><column index="8" value="156"/><column index="9" value="156"/><column index="10" value="156"/><column index="11" value="112"/><column index="12" value="117"/><column index="13" value="124"/><column index="14" value="109"/><column index="15" value="53"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="dailyActivity_merged" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="85"/><column index="2" value="78"/><column index="3" value="67"/><column index="4" value="156"/><column index="5" value="156"/><column index="6" value="148"/><column index="7" value="148"/><column index="8" value="156"/><column index="9" value="156"/><column index="10" value="156"/><column index="11" value="112"/><column index="12" value="117"/><column index="13" value="124"/><column index="14" value="109"/><column index="15" value="53"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="dailyCalories_merged" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="85"/><column index="2" value="78"/><column index="3" value="53"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="dailyIntensities_merged" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="85"/><column index="2" value="78"/><column index="3" value="109"/><column index="4" value="124"/><column index="5" value="117"/><column index="6" value="112"/><column index="7" value="156"/><column index="8" value="156"/><column index="9" value="156"/><column index="10" value="148"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="heartrate_cleaned" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="85"/><column index="2" value="171"/><column index="3" value="65"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="heartrate_seconds_merged" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="85"/><column index="2" value="163"/><column index="3" value="39"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="hourlyCalories_merged" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="85"/><column index="2" value="171"/><column index="3" value="53"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="hourlyIntensities_merged" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="85"/><column index="2" value="171"/><column index="3" value="87"/><column index="4" value="104"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="hourlySteps_cleaned" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="85"/><column index="2" value="179"/><column index="3" value="61"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="hourlySteps_final" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="85"/><column index="2" value="85"/><column index="3" value="61"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="hourlySteps_merged" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="85"/><column index="2" value="171"/><column index="3" value="61"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="merged_daily_activity_sleep" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="85"/><column index="2" value="85"/><column index="3" value="67"/><column index="4" value="53"/><column index="5" value="109"/><column index="6" value="124"/><column index="7" value="117"/><column index="8" value="112"/><column index="9" value="114"/><column index="10" value="117"/><column index="11" value="97"/><column index="12" value="119"/><column index="13" value="117"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="merged_final" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="85"/><column index="2" value="85"/><column index="3" value="67"/><column index="4" value="53"/><column index="5" value="109"/><column index="6" value="124"/><column index="7" value="117"/><column index="8" value="112"/><column index="9" value="126"/><column index="10" value="117"/><column index="11" value="97"/><column index="12" value="131"/><column index="13" value="117"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="minuteCaloriesNarrow_merged" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="85"/><column index="2" value="171"/><column index="3" value="140"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="minuteCaloriesWide_merged" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="85"/><column index="2" value="171"/><column index="3" value="140"/><column index="4" value="140"/><column index="5" value="140"/><column index="6" value="140"/><column index="7" value="140"/><column index="8" value="140"/><column index="9" value="140"/><column index="10" value="140"/><column index="11" value="140"/><column index="12" value="140"/><column index="13" value="140"/><column index="14" value="140"/><column index="15" value="140"/><column index="16" value="140"/><column index="17" value="140"/><column index="18" value="140"/><column index="19" value="140"/><column index="20" value="140"/><column index="21" value="140"/><column index="22" value="140"/><column index="23" value="140"/><column index="24" value="140"/><column index="25" value="140"/><column index="26" value="140"/><column index="27" value="140"/><column index="28" value="140"/><column index="29" value="140"/><column index="30" value="140"/><column index="31" value="140"/><column index="32" value="140"/><column index="33" value="140"/><column index="34" value="140"/><column index="35" value="140"/><column index="36" value="140"/><column index="37" value="140"/><column index="38" value="140"/><column index="39" value="140"/><column index="40" value="140"/><column index="41" value="140"/><column index="42" value="140"/><column index="43" value="140"/><column index="44" value="140"/><column index="45" value="140"/><column index="46" value="140"/><column index="47" value="140"/><column index="48" value="140"/><column index="49" value="140"/><column index="50" value="140"/><column index="51" value="140"/><column index="52" value="140"/><column index="53" value="140"/><column index="54" value="140"/><column index="55" value="140"/><column index="56" value="140"/><column index="57" value="140"/><column index="58" value="140"/><column index="59" value="140"/><column index="60" value="140"/><column index="61" value="140"/><column index="62" value="140"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="minuteIntensitiesNarrow_merged" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="85"/><column index="2" value="171"/><column index="3" value="59"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="minuteIntensitiesWide_merged" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="85"/><column index="2" value="171"/><column index="3" value="73"/><column index="4" value="73"/><column index="5" value="73"/><column index="6" value="73"/><column index="7" value="73"/><column index="8" value="73"/><column index="9" value="73"/><column index="10" value="73"/><column index="11" value="73"/><column index="12" value="73"/><column index="13" value="73"/><column index="14" value="73"/><column index="15" value="73"/><column index="16" value="73"/><column index="17" value="73"/><column index="18" value="73"/><column index="19" value="73"/><column index="20" value="73"/><column index="21" value="73"/><column index="22" value="73"/><column index="23" value="73"/><column index="24" value="73"/><column index="25" value="73"/><column index="26" value="73"/><column index="27" value="73"/><column index="28" value="73"/><column index="29" value="73"/><column index="30" value="73"/><column index="31" value="73"/><column index="32" value="73"/><column index="33" value="73"/><column index="34" value="73"/><column index="35" value="73"/><column index="36" value="73"/><column index="37" value="73"/><column index="38" value="73"/><column index="39" value="73"/><column index="40" value="73"/><column index="41" value="73"/><column index="42" value="73"/><column index="43" value="73"/><column index="44" value="73"/><column index="45" value="73"/><column index="46" value="73"/><column index="47" value="73"/><column index="48" value="73"/><column index="49" value="73"/><column index="50" value="73"/><column index="51" value="73"/><column index="52" value="73"/><column index="53" value="73"/><column index="54" value="73"/><column index="55" value="73"/><column index="56" value="73"/><column index="57" value="73"/><column index="58" value="73"/><column index="59" value="73"/><column index="60" value="73"/><column index="61" value="73"/><column index="62" value="73"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="minuteSleep_merged" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="85"/><column index="2" value="163"/><column index="3" value="38"/><column index="4" value="93"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="minuteStepsNarrow_merged" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="85"/><column index="2" value="171"/><column index="3" value="39"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="minuteStepsWide_merged" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="85"/><column index="2" value="171"/><column index="3" value="53"/><column index="4" value="53"/><column index="5" value="53"/><column index="6" value="53"/><column index="7" value="53"/><column index="8" value="53"/><column index="9" value="53"/><column index="10" value="53"/><column index="11" value="53"/><column index="12" value="53"/><column index="13" value="53"/><column index="14" value="53"/><column index="15" value="53"/><column index="16" value="53"/><column index="17" value="53"/><column index="18" value="53"/><column index="19" value="53"/><column index="20" value="53"/><column index="21" value="53"/><column index="22" value="53"/><column index="23" value="53"/><column index="24" value="53"/><column index="25" value="53"/><column index="26" value="53"/><column index="27" value="53"/><column index="28" value="53"/><column index="29" value="53"/><column index="30" value="53"/><column index="31" value="53"/><column index="32" value="53"/><column index="33" value="53"/><column index="34" value="53"/><column index="35" value="53"/><column index="36" value="53"/><column index="37" value="53"/><column index="38" value="53"/><column index="39" value="53"/><column index="40" value="53"/><column index="41" value="53"/><column index="42" value="53"/><column index="43" value="53"/><column index="44" value="53"/><column index="45" value="53"/><column index="46" value="53"/><column index="47" value="53"/><column index="48" value="53"/><column index="49" value="53"/><column index="50" value="53"/><column index="51" value="53"/><column index="52" value="53"/><column index="53" value="53"/><column index="54" value="53"/><column index="55" value="53"/><column index="56" value="53"/><column index="57" value="53"/><column index="58" value="53"/><column index="59" value="53"/><column index="60" value="53"/><column index="61" value="53"/><column index="62" value="53"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="sleepDay_final" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="85"/><column index="2" value="179"/><column index="3" value="111"/><column index="4" value="117"/><column index="5" value="97"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="sleepDay_merged" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="85"/><column index="2" value="171"/><column index="3" value="111"/><column index="4" value="117"/><column index="5" value="97"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="weightLogInfo_merged" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="85"/><column index="2" value="171"/><column index="3" value="132"/><column index="4" value="132"/><column index="5" value="39"/><column index="6" value="132"/><column index="7" value="97"/><column index="8" value="109"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="weightLog_cleaned" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="85"/><column index="2" value="171"/><column index="3" value="132"/><column index="4" value="132"/><column index="5" value="132"/><column index="6" value="97"/><column index="7" value="109"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="weightLog_final" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="85"/><column index="2" value="179"/><column index="3" value="132"/><column index="4" value="132"/><column index="5" value="132"/><column index="6" value="97"/><column index="7" value="109"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="Executing Tables">ELECT * FROM dailyActivity_merged LIMIT 5;
+SELECT * FROM sleepDay_merged LIMIT 5;
+SELECT * FROM hourlySteps_merged LIMIT 5;
+SELECT * FROM heartrate_seconds_merged LIMIT 5;
+SELECT * FROM weightLogInfo_merged LIMIT 5;
+
+-- Counting rows for these tables
+SELECT Count(*) FROM dailyActivity_merged; 
+SELECT Count(*) FROM sleepDay_merged;
+SELECT Count(*) FROM hourlySteps_merged;
+SELECT Count(*) FROM heartrate_seconds_merged;
+SELECT Count(*) FROM weightLogInfo_merged;
+
+
+   
+
+
+
+
+</sql><sql name="Finding Null values">-- *** Step 1 — Check for NULLs ***
+-- Check NULLs in dailyActivity table
+SELECT 
+    COUNT(*)                                   AS total_rows,
+    COUNT(*) - COUNT(Id)                       AS null_Id,
+    COUNT(*) - COUNT(ActivityDate)             AS null_date,
+    COUNT(*) - COUNT(TotalSteps)               AS null_steps,
+    COUNT(*) - COUNT(TotalDistance)            AS null_total,
+	COUNT(*) - COUNT(TrackerDistance)          AS null_tracker,
+	COUNT(*) - COUNT(LoggedActivitiesDistance) AS null_LoggedActivities,
+	COUNT(*) - COUNT(VeryActiveDistance)       AS null_VeryActive,
+	COUNT(*) - COUNT(ModeratelyActiveDistance) AS null_ModeratelyActive,
+	COUNT(*) - COUNT(LightActiveDistance)      AS null_LightActive,
+	COUNT(*) - COUNT(SedentaryActiveDistance)  AS null_SedentaryActive,
+	COUNT(*) - COUNT(VeryActiveMinutes)        AS null_VeryActive,
+	COUNT(*) - COUNT(FairlyActiveMinutes)      AS null_FairlyActive,
+	COUNT(*) - COUNT(LightlyActiveMinutes)     AS null_LightlyActive,
+	COUNT(*) - COUNT(SedentaryMinutes)         AS null_Sedentary,
+	COUNT(*) - COUNT(Calories)                 AS null_calories
+    FROM dailyActivity_merged;
+
+-- Check NULLs in sleepDay table
+SELECT
+    COUNT(*) AS total_rows,
+    COUNT(*) - COUNT(Id)                  AS null_Id,
+    COUNT(*) - COUNT(SleepDay)            AS null_date,
+    COUNT(*) - COUNT(TotalSleepRecords)   AS null_SleepRecd,
+	COUNT(*) - COUNT(TotalMinutesAsleep)  AS null_AsleepMin,
+	COUNT(*) - COUNT(TotalTimeInBed)      AS null_TimeInBed
+FROM sleepDay_merged;
+
+-- Check NULLs in hourlySteps_merged table
+SELECT
+    COUNT(*) AS total_rows,
+    COUNT(*) - COUNT(Id)                  AS null_Id,
+    COUNT(*) - COUNT(ActivityHour)        AS null_hour,
+    COUNT(*) - COUNT(StepTotal)           AS null_StepT
+FROM hourlySteps_merged;
+
+-- Check NULLs in heartrate_seconds_merged table
+SELECT
+    COUNT(*) AS total_rows,
+    COUNT(*) - COUNT(Id)                  AS null_Id,
+    COUNT(*) - COUNT(Time)                AS null_time,
+    COUNT(*) - COUNT(value)               AS null_value
+FROM heartrate_seconds_merged;
+
+-- Check NULLs in weightLogInfo_merged table
+
+SELECT
+    COUNT(*) AS total_rows,
+    COUNT(*) - COUNT(Id)                  AS null_Id,
+    COUNT(*) - COUNT(Date)                AS null_date,
+    COUNT(*) - COUNT(WeightKg)            AS null_KG,
+	COUNT(*) - COUNT(WeightPounds)        AS null_Pounds,
+	COUNT(*) - COUNT(Fat)                 AS null_Fat,
+	COUNT(*) - COUNT(BMI)                 AS null_BMI,
+    COUNT(*) - COUNT(IsManualReport)      AS null_IsManual,
+	COUNT(*) - COUNT(LogId)               AS null_LogId
+	FROM weightLogInfo_merged;
+	
+	-- Count distinct users who logged weight
+SELECT 
+    COUNT(DISTINCT Id)  AS total_users,
+    COUNT(*)            AS total_rows
+FROM weightLogInfo_merged;
+
+-- See how many times each user logged their weight
+SELECT 
+    Id,
+    COUNT(*) AS times_logged
+FROM weightLogInfo_merged
+GROUP BY Id
+ORDER BY times_logged DESC;
+
+/*97% of fat entries are missing, indicating most users log weight manually rather than using a smart scale. 
+Bellabeat could market its smart scale integration as a key differentiator to capture more complete health data from users. */
+
+-- Create a new table without the Fat column
+CREATE TABLE weightLog_cleaned AS
+SELECT
+    Id,
+    Date,
+    WeightKg,
+    WeightPounds, -- Fat column excluded due to 97% null values
+    BMI,
+    IsManualReport,
+    LogId
+FROM weightLogInfo_merged;
+
+-- Verify it looks correct
+SELECT * FROM weightLog_cleaned LIMIT 5;
+</sql><sql name="Finding Duplicates">-- *** Step 2 — Check for Duplicates: ***
+-- Find duplicate rows in dailyActivity (same user, same date)
+SELECT
+    Id,
+    ActivityDate,
+    COUNT(*) AS occurrences
+FROM dailyActivity_merged
+GROUP BY Id, ActivityDate
+HAVING COUNT(*) &gt; 1;
+
+-- Find duplicate rows in sleepDay
+SELECT
+    Id,
+    SleepDay,
+    COUNT(*) AS occurrences
+FROM sleepDay_merged
+GROUP BY Id, SleepDay
+HAVING COUNT(*) &gt; 1;
+
+-- Find duplicate rows in hourlySteps
+SELECT
+    Id,
+    ActivityHour,
+    COUNT(*) AS occurrences
+FROM hourlySteps_merged
+GROUP BY Id, ActivityHour
+HAVING COUNT(*) &gt; 1;
+
+-- Find duplicate rows in heartrate_seconds
+SELECT
+    Id,
+    Time,
+    COUNT(*) AS occurrences
+FROM heartrate_seconds_merged
+GROUP BY Id, Time
+HAVING COUNT(*) &gt; 1;
+
+
+-- Find duplicate rows in weightLogInfo_merged 
+SELECT
+    Id,
+    date,
+    COUNT(*) AS occurrences
+FROM weightLogInfo_merged
+GROUP BY Id, date
+HAVING COUNT(*) &gt; 1;
+
+-- View the actual duplicate rows in sleepDay_merged Dataset to understand them
+SELECT *
+FROM sleepDay_merged
+WHERE Id IN (4388161847, 4702921684, 8378563200)
+ORDER BY Id, SleepDay;
+
+-- Compare duplicate rows side by side
+SELECT
+    Id,
+    SleepDay,
+    TotalSleepRecords,
+    TotalMinutesAsleep,
+    TotalTimeInBed,
+    COUNT(*) AS occurrences
+FROM sleepDay_merged
+GROUP BY Id, SleepDay, TotalSleepRecords, TotalMinutesAsleep, TotalTimeInBed
+HAVING COUNT(*) &gt; 1;
+
+-- Create a clean sleep table with duplicates removed (5/5/2016, 5/7/2016, 4/25/2016)
+DROP TABLE sleepDay_cleaned;
+CREATE TABLE sleepDay_cleaned AS
+SELECT DISTINCT *
+FROM sleepDay_merged;
+
+-- Verify rows were removed
+SELECT COUNT(*) AS total_rows FROM sleepDay_merged;    -- original count
+SELECT COUNT(*) AS clean_rows FROM sleepDay_cleaned;   -- should be 3 less
+
+-- Confirm no duplicates remain in the cleaned table
+SELECT
+    Id,
+    SleepDay,
+    COUNT(*) AS occurrences
+FROM sleepDay_cleaned
+GROUP BY Id, SleepDay
+HAVING COUNT(*) &gt; 1;
+
+/* 3 duplicate records were found in sleepDay_merged and removed using DISTINCT.
+   Final clean table contains 410 rows.*/
+   </sql><sql name="Checking Date Formats">-- *** Step 3 — Check Date Formats ***
+-- Preview the raw date values to see how they look
+SELECT DISTINCT ActivityDate
+FROM dailyActivity_merged
+ORDER BY ActivityDate
+LIMIT 20;
+
+-- Standardize to YYYY-MM-DD format (use this in all further queries)
+SELECT
+    Id,
+    DATE(ActivityDate) AS activity_date,   -- converts to standard date format
+    TotalSteps,
+    Calories
+FROM dailyActivity_merged
+LIMIT 10;
+
+-- Standardizing Activity Date Column in dailyActivity_merged
+SELECT
+    Id,
+    substr(ActivityDate, -4) || '-' ||
+    printf('%02d', substr(ActivityDate, 1, instr(ActivityDate, '/') - 1)) || '-' ||
+    printf('%02d',
+        substr(
+            ActivityDate,
+            instr(ActivityDate, '/') + 1,
+            instr(substr(ActivityDate, instr(ActivityDate, '/') + 1), '/') - 1
+        )
+    ) AS ActivityDate
+FROM dailyActivity_merged;
+
+-- Create cleaned table with standardized date and all original columns
+DROP TABLE IF EXISTS dailyActivity_cleaned;
+
+CREATE TABLE dailyActivity_cleaned AS
+SELECT
+    Id,
+    SUBSTR(ActivityDate, -4) || '-' ||
+    PRINTF('%02d', CAST(SUBSTR(ActivityDate, 1, INSTR(ActivityDate, '/') - 1) AS INTEGER)) || '-' ||
+    PRINTF('%02d', CAST(SUBSTR(ActivityDate, INSTR(ActivityDate, '/') + 1,
+        INSTR(SUBSTR(ActivityDate, INSTR(ActivityDate, '/') + 1), '/') - 1) AS INTEGER))
+    AS ActivityDate,
+    TotalSteps, TotalDistance, TrackerDistance,
+    LoggedActivitiesDistance, VeryActiveDistance,
+    ModeratelyActiveDistance, LightActiveDistance,
+    SedentaryActiveDistance, VeryActiveMinutes,
+    FairlyActiveMinutes, LightlyActiveMinutes,
+    SedentaryMinutes, Calories
+FROM dailyActivity_merged
+WHERE TotalSteps &gt; 0
+  AND SedentaryMinutes &lt;= 1440;
+  
+  -- Verify it worked
+SELECT * FROM dailyActivity_cleaned;
+
+
+-- Standardizing Date columns in sleepDay_merged
+-- Test the date extraction first 
+
+-- Preview the raw date values to see how they look
+SELECT DISTINCT SleepDay
+FROM sleepDay_cleaned
+ORDER BY SleepDay
+LIMIT 20;
+
+-- Standardize to YYYY-MM-DD format (use this in all further queries)
+SELECT
+    Id,
+    DATE(SleepDay) AS SleepDay,   -- converts to standard date format
+    TotalSleepRecords,
+	TotalMinutesAsleep,
+	TotalTimeInBed
+FROM sleepDay_cleaned
+LIMIT 10;
+
+-- Standardizing SleepDay Column in sleepDay_merged
+SELECT * FROM sleepDay_cleaned;
+DROP TABLE IF EXISTS sleepDay_final;
+CREATE TABLE sleepDay_final AS
+SELECT
+    Id,
+    -- Merged DateTime column
+    SUBSTR(SUBSTR(SleepDay, 1, INSTR(SleepDay, ' ') - 1), -4)
+    || '-' ||
+    PRINTF('%02d', CAST(SUBSTR(SleepDay, 1, INSTR(SleepDay, '/') - 1) AS INTEGER)) || '-' ||
+    PRINTF('%02d', CAST(SUBSTR(SleepDay, INSTR(SleepDay, '/') + 1,
+        INSTR(SUBSTR(SleepDay, INSTR(SleepDay, '/') + 1), '/') - 1) AS INTEGER))
+    || ' ' ||
+    TRIM(SUBSTR(SleepDay, INSTR(SleepDay, ' ')))
+    AS ActivityDateTime,
+	TotalSleepRecords,
+	TotalMinutesAsleep,
+	TotalTimeInBed
+FROM sleepDay_cleaned;
+
+-- Verify it worked
+SELECT * FROM sleepDay_final;
+
+-- Standardizing Date columns in hourlySteps_merged
+-- Test the date extraction first 
+SELECT DISTINCT ActivityHour
+FROM hourlySteps_merged
+ORDER BY ActivityHour
+LIMIT 20;
+-- Standardize to YYYY-MM-DD format (use this in all further queries)
+SELECT
+    Id,
+    DATE(ActivityHour) AS activity_hour,   -- converts to standard date format
+    StepTotal
+FROM hourlySteps_merged
+LIMIT 10;
+
+-- Standardizing Activity Hour Column in hourlySteps_merged
+SELECT
+    Id,
+    substr(ActivityHour, -4) || '-' ||
+    printf('%02d', substr(ActivityHour, 1, instr(ActivityHour, '/') - 1)) || '-' ||
+    printf('%02d',
+        substr(
+            ActivityHour,
+            instr(ActivityHour, '/') + 1,
+            instr(substr(ActivityHour, instr(ActivityHour, '/') + 1), '/') - 1
+        )
+    ) AS ActivityHour
+FROM hourlySteps_merged;
+
+-- Standardizing ActivityHour Column in hourlySteps_merged
+DROP TABLE IF EXISTS hourlySteps_cleaned;
+
+CREATE TABLE hourlySteps_cleaned AS
+SELECT
+    Id,
+    -- Merged ActivityDateTime column (Date + Time combined)
+    SUBSTR(SUBSTR(ActivityHour, 1, INSTR(ActivityHour, ' ') - 1), -4)
+    || '-' ||
+    PRINTF('%02d', CAST(SUBSTR(ActivityHour, 1, INSTR(ActivityHour, '/') - 1) AS INTEGER)) || '-' ||
+    PRINTF('%02d', CAST(SUBSTR(ActivityHour, INSTR(ActivityHour, '/') + 1,
+        INSTR(SUBSTR(ActivityHour, INSTR(ActivityHour, '/') + 1), '/') - 1) AS INTEGER))
+    || ' ' ||
+    TRIM(SUBSTR(ActivityHour, INSTR(ActivityHour, ' ')))
+    AS ActivityDateTime,
+    StepTotal
+FROM hourlySteps_merged;
+
+-- Verify
+SELECT * FROM hourlySteps_cleaned;
+
+
+-- Standardizing Date/Time Column from heartrate_seconds_merged
+SELECT * FROM heartrate_seconds_merged;
+-- Preview the raw date values to see how they look
+SELECT DISTINCT Time
+FROM heartrate_seconds_merged
+ORDER BY Time
+LIMIT 20;
+
+-- Standardize to YYYY-MM-DD format (use this in all further queries)
+SELECT
+    Id,
+    DATE(Time) AS time,   -- converts to standard date format
+    value
+   FROM heartrate_seconds_merged
+LIMIT 10;
+
+-- Standardizing Date/Time Column from heartrate_seconds_merged
+CREATE TABLE heartrate_cleaned AS
+SELECT
+    Id,
+    -- Merged DateTime column
+    SUBSTR(SUBSTR(Time, 1, INSTR(Time, ' ') - 1), -4)
+    || '-' ||
+    PRINTF('%02d', CAST(SUBSTR(Time, 1, INSTR(Time, '/') - 1) AS INTEGER)) || '-' ||
+    PRINTF('%02d', CAST(SUBSTR(Time, INSTR(Time, '/') + 1,
+        INSTR(SUBSTR(Time, INSTR(Time, '/') + 1), '/') - 1) AS INTEGER))
+    || ' ' ||
+    TRIM(SUBSTR(Time, INSTR(Time, ' ')))
+    AS ActivityDateTime,
+    Value AS HeartRate
+FROM heartrate_seconds_merged;
+
+-- Verify
+SELECT * FROM heartrate_cleaned LIMIT 5;
+
+
+
+
+-- Standardizing Date/Time Column from weightLog_cleaned
+SELECT * FROM weightLog_cleaned;
+CREATE TABLE weightLog_final AS
+SELECT
+    Id,
+    -- Merged DateTime column
+    SUBSTR(SUBSTR(Date, 1, INSTR(Date, ' ') - 1), -4)
+    || '-' ||
+    PRINTF('%02d', CAST(SUBSTR(Date, 1, INSTR(Date, '/') - 1) AS INTEGER)) || '-' ||
+    PRINTF('%02d', CAST(SUBSTR(Date, INSTR(Date, '/') + 1,
+        INSTR(SUBSTR(Date, INSTR(Date, '/') + 1), '/') - 1) AS INTEGER))
+    || ' ' ||
+    TRIM(SUBSTR(Date, INSTR(Date, ' ')))
+    AS ActivityDateTime,
+    WeightKg,
+    WeightPounds,
+    BMI,
+    IsManualReport,
+    LogId
+FROM weightLog_cleaned
+WHERE WeightKg IS NOT NULL;
+
+-- Verify
+SELECT * FROM weightLog_final LIMIT 5; 
+
+
+
+
+
+
+
+
+</sql><sql name="Finding Outliers">-- Flag rows where steps = 0 (user likely didn't wear device)
+-- or sedentary_minutes &gt; 1440 (more than 24 hours in a day — impossible)
+SELECT
+    Id,
+    ActivityDate,
+    TotalSteps,
+    SedentaryMinutes,
+    Calories,
+    CASE
+        WHEN TotalSteps = 0          THEN 'No steps recorded'
+        WHEN SedentaryMinutes &gt; 1440 THEN 'Invalid sedentary time'
+        WHEN Calories &lt; 500          THEN 'Unusually low calories'
+        WHEN Calories &gt; 5000         THEN 'Unusually high calories'
+      ELSE 'Normal'
+    END AS data_flag
+FROM dailyActivity_cleaned
+WHERE TotalSteps = 0
+   OR SedentaryMinutes &gt; 1440
+   OR Calories &lt; 500
+   OR Calories &gt; 5000
+ORDER BY data_flag, ActivityDate;
+
+</sql><sql name="Merge DailyActivity + SleepDay Tables">DROP TABLE IF EXISTS merged_daily_activity_sleep;
+
+CREATE TABLE merged_daily_activity_sleep AS
+SELECT
+    a.Id,
+    a.ActivityDate,
+    a.TotalSteps,
+    a.Calories,
+    a.SedentaryMinutes,
+    a.LightlyActiveMinutes,
+    a.FairlyActiveMinutes,
+    a.VeryActiveMinutes,
+    (a.LightlyActiveMinutes + 
+     a.FairlyActiveMinutes + 
+     a.VeryActiveMinutes)                       AS TotalActiveMinutes,
+    COALESCE(s.TotalMinutesAsleep, 0)           AS TotalMinutesAsleep,
+    COALESCE(s.TotalTimeInBed, 0)               AS TotalTimeInBed,
+    (480 - COALESCE(s.TotalMinutesAsleep, 0))   AS SleepDeficitMinutes,
+    CASE
+        WHEN a.VeryActiveMinutes &gt;= 30    THEN 'Very Active'
+        WHEN a.FairlyActiveMinutes &gt;= 30  THEN 'Fairly Active'
+        WHEN a.LightlyActiveMinutes &gt;= 30 THEN 'Lightly Active'
+        ELSE 'Sedentary'
+    END                                         AS ActivityCategory
+FROM dailyActivity_cleaned AS a
+LEFT JOIN sleepDay_final AS s
+    ON a.Id = s.Id
+    AND a.ActivityDate = SUBSTR(s.ActivityDateTime, 1, 10);
+
+-- Verify
+SELECT * FROM merged_daily_activity_sleep LIMIT 10;
+
+-- Confirm user simply did not log sleep on that specific day.
+SELECT
+    COUNT(*)                                    AS total_rows,
+    COUNT(CASE WHEN TotalMinutesAsleep &gt; 0 
+          THEN 1 END)                           AS rows_with_sleep,
+    COUNT(CASE WHEN TotalMinutesAsleep = 0 
+          THEN 1 END)                           AS rows_without_sleep
+FROM merged_daily_activity_sleep;
+	
+
+	</sql><sql name="Create Calculated Columns">-- Add: total active minutes, sleep deficit, and activity category
+SELECT
+    a.Id,
+    a.ActivityDate,
+    a.TotalSteps,
+    a.Calories,
+	 -- Total active minutes (sum of all active levels)
+    (a.LightlyActiveMinutes + a.FairlyActiveMinutes + a.VeryActiveMinutes) AS TotalActiveMinutes,
+	-- Sleep deficit (recommended 480 mins = 8 hours)
+	-- AFTER (replaces NULL with 0)
+	-- BEFORE (produces NULL when no sleep logged)
+    -- (480 - s.TotalMinutesAsleep) AS sleep_deficit_minutes,
+    COALESCE(s.TotalMinutesAsleep, 0)         AS TotalMinutesAsleep,
+    COALESCE(s.TotalTimeInBed, 0)             AS TotalTimeInBed,
+    (480 - COALESCE(s.TotalMinutesAsleep, 0)) AS SleepDeficitMinutes,
+	    -- Activity category based on very active minutes (CDC guidelines)
+    CASE
+        WHEN a.VeryActiveMinutes &gt;= 30    THEN 'Very Active'
+        WHEN a.FairlyActiveMinutes &gt;= 30  THEN 'Fairly Active'
+        WHEN a.LightlyActiveMinutes &gt;= 30 THEN 'Lightly Active'
+        ELSE 'Sedentary'
+    END AS ActivityCategory
+FROM dailyActivity_cleaned AS a
+LEFT JOIN sleepDay_final AS s
+    ON a.Id = s.Id
+    AND a.ActivityDate = DATE(s.ActivityDateTime)  -- extract date part from ActivityDateTime
+	-- Exclude bad data rows
+WHERE a.TotalSteps &gt; 0
+  AND a.SedentaryMinutes &lt;= 1440;
+  
+  
+  
+  
+
+</sql><sql name="Final Clean Table">CREATE TABLE merged_final AS
+SELECT
+    a.Id,
+    a.ActivityDate                                          AS activity_date,
+    a.TotalSteps,
+    a.Calories,
+    a.SedentaryMinutes,
+    a.LightlyActiveMinutes,
+    a.FairlyActiveMinutes,
+    a.VeryActiveMinutes,
+    (a.LightlyActiveMinutes + 
+     a.FairlyActiveMinutes + 
+     a.VeryActiveMinutes)                                   AS total_active_minutes,
+    COALESCE(s.TotalMinutesAsleep, 0)                      AS TotalMinutesAsleep,
+    COALESCE(s.TotalTimeInBed, 0)                          AS TotalTimeInBed,
+    (480 - COALESCE(s.TotalMinutesAsleep, 0))              AS sleep_deficit_minutes,
+    CASE
+        WHEN a.VeryActiveMinutes &gt;= 30    THEN 'Very Active'
+        WHEN a.FairlyActiveMinutes &gt;= 30  THEN 'Fairly Active'
+        WHEN a.LightlyActiveMinutes &gt;= 30 THEN 'Lightly Active'
+        ELSE 'Sedentary'
+    END                                                     AS activity_category
+FROM dailyActivity_cleaned AS a
+LEFT JOIN sleepDay_final AS s
+    ON a.Id = s.Id
+    AND a.ActivityDate = s.SleepDay;
+
+-- Verify
+SELECT * FROM merged_final;</sql><current_tab id="0"/></tab_sql></sqlb_project>
