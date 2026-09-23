@@ -39,18 +39,24 @@ Power BI | DAX | Power Query | Excel/CSV | Data Modeling
 
 # Business Investigation
 1. Which locations command the highest property prices?
-A. Urban properties show the highest price per square foot, while suburban properties have lower pricing.
+
+Urban properties show the highest price per square foot, while suburban properties have lower pricing.
+
 Business implication : Location appears to be an important pricing differentiator.
 
 2. Where can buyers obtain more space at relatively lower prices?
-A. The dashboard identifies rural properties as offering larger space at relatively lower prices, while suburban properties represent the more affordable area based on average property price.
+
+The dashboard identifies rural properties as offering larger space at relatively lower prices, while suburban properties represent the more affordable area based on average property price.
+
 Business implication : Different customer segments may value different trade-offs:
 Urban → Location premium
 Suburban → Affordability
 Rural → Space/value relationship
 
 3. Which property configurations appear most frequently in the market?
-A. 3-bedroom and 5-bedroom properties as dominant demand categories, while 2–4 bedroom properties collectively represent the more common mid-sized segment.
+
+3-bedroom and 5-bedroom properties as dominant demand categories, while 2–4 bedroom properties collectively represent the more common mid-sized segment.
+
 Business implication : Developers and real-estate marketers could use bedroom-level demand patterns when evaluating:
 New development mix
 Marketing campaigns
@@ -58,7 +64,9 @@ Inventory planning
 Target customer segments
 
 4. Does newer automatically mean more expensive?
-A. No. Analysis shows relatively higher prices for Very Old and Old properties, with Very Old properties having the highest pricing.
+
+ No. Analysis shows relatively higher prices for Very Old and Old properties, with Very Old properties having the highest pricing.
+
 
 # Business Recommendations
 Recommendation 1 — Segment marketing by location
