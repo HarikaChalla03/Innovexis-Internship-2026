@@ -3,13 +3,14 @@
 # Author
 Challa Harika
 Data Analyst | Power BI | SQL | Python
-
 LinkedIn: https://www.linkedin.com/in/challa-harika/
 
-# Business Problem : Real-estate businesses need to understand how location, property size, bedroom count and property age influence housing prices in order to improve pricing, marketing and investment decisions.
+# Business Problem :
+Real-estate businesses need to understand how location, property size, bedroom count and property age influence housing prices in order to improve pricing, marketing and investment decisions.
 
 
-# Business Objective : Analyze 50K property listings to identify
+# Business Objective :
+Analyze 50K property listings to identify
 Pricing patterns
 Affordable vs premium locations
 Price-per-square-foot differences
