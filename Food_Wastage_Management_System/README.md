@@ -62,7 +62,7 @@ Local_Food_Wastage_Management_System/
 7. Which providers have the highest completed claims?
 8. Which cities have high cancellation/pending activity?
 
-# Key Findings:
+# Key Findings
 
 25,894 units of food were recorded across food listings.
 Restaurants contributed the highest listed quantity among provider types: 6,923 units.
@@ -75,16 +75,24 @@ East Heatherport recorded 7 cancelled claims, while South Kathryn recorded 5 com
 # Business Insights
 
 Supply: Food availability was distributed across multiple provider types, with restaurants contributing the highest quantity.
+
 Demand: Breakfast showed the highest claim activity, indicating relatively stronger demand for breakfast-related listings.
+
 Distribution: Only about one-third of claims were completed, while cancelled and pending claims represented substantial portions of total claim activity.
+
 Geography: Claim outcomes varied across cities, suggesting that location-level monitoring could help identify potential fulfillment or matching issues.
 
 # Business Recommendations
 Improve provider-receiver matching at city level.
+
 Monitor Completed, Cancelled and Pending claims by location.
+
 Investigate cities with unusually high cancellations or pending claims.
+
 Prioritize near-expiry food listings.
+
 Monitor frequently claimed food and meal categories.
+
 Track listing → claim → completed conversion in future dashboard versions.
 
 
