@@ -1,6 +1,6 @@
 # Local Food Wastage Management System
 
-## 📌 Project Overview
+## Project Overview
 
 The **Local Food Wastage Management System** is an end-to-end data analytics and management application designed to improve visibility into surplus food availability, food claims, and distribution status.
 
@@ -12,7 +12,7 @@ The primary analytical focus is understanding how food moves through the process
 
 ---
 
-## 🎯 Business Problem
+## Business Problem
 
 Food providers may have surplus food while receivers have varying levels of demand. Without a centralized system, it can be difficult to track:
 
@@ -28,7 +28,7 @@ This project provides a centralized system for managing and analyzing these acti
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 * Manage food provider and receiver information.
 * Track available food listings.
@@ -42,7 +42,7 @@ This project provides a centralized system for managing and analyzing these acti
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Python**
 * **Pandas**
@@ -53,7 +53,7 @@ This project provides a centralized system for managing and analyzing these acti
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```text
 Food Providers
@@ -71,7 +71,7 @@ Business Analysis & Insights
 
 ---
 
-## 🗄️ Database Structure
+##  Database Structure
 
 The project uses four major entities:
 
@@ -103,7 +103,7 @@ Stores food claim information and claim status.
 
 ---
 
-## 📊 Application Features
+##  Application Features
 
 ### Dashboard
 
@@ -149,7 +149,7 @@ The application supports:
 
 ---
 
-# 🔍 Key Business Findings
+#  Key Business Findings
 
 ### Food Availability
 
@@ -197,7 +197,7 @@ Among the providers analyzed:
 
 ---
 
-# 💡 Business Insights
+#  Business Insights
 
 ### 1. Supply is distributed across multiple provider types
 
@@ -221,7 +221,7 @@ Some providers contribute considerably more listed food than others. Provider-le
 
 ---
 
-# 🔎 Business Investigation
+#  Business Investigation
 
 The following areas can be investigated further:
 
@@ -234,7 +234,7 @@ The following areas can be investigated further:
 
 ---
 
-# 💼 Business Recommendations
+#  Business Recommendations
 
 * Improve **provider-receiver matching** at the city level.
 * Monitor **Completed, Cancelled, and Pending claims** by location.
@@ -246,7 +246,7 @@ The following areas can be investigated further:
 
 ---
 
-# 📈 Key SQL Analysis
+#  Key SQL Analysis
 
 The project uses SQL to answer business questions such as:
 
@@ -267,7 +267,7 @@ The project uses SQL to answer business questions such as:
 
 ---
 
-# 🖥️ Application Screenshots
+#  Application Screenshots
 
 ### Dashboard
 
@@ -287,7 +287,7 @@ The project uses SQL to answer business questions such as:
 
 ---
 
-# 📁 Project Structure
+#  Project Structure
 
 ```text
 Local-Food-Wastage-Management/
@@ -313,7 +313,7 @@ Local-Food-Wastage-Management/
 
 ---
 
-# ⚙️ How to Run
+#  How to Run
 
 ### 1. Clone the repository
 
@@ -347,7 +347,7 @@ streamlit run app.py
 
 ---
 
-# 🚀 Future Improvements
+#  Future Improvements
 
 * Add an **expiry-based food prioritization system**.
 * Add **listing-to-claim conversion rate**.
@@ -359,7 +359,7 @@ streamlit run app.py
 
 ---
 
-# 🎓 Skills Demonstrated
+#  Skills Demonstrated
 
 **Data Analysis:**
 SQL, exploratory analysis, KPI analysis, business investigation
@@ -378,12 +378,12 @@ Business problem → Data analysis → Findings → Insights → Recommendations
 
 ---
 
-## 📌 Project Summary
+##  Project Summary
 
 > Built an end-to-end Local Food Wastage Management System using **Python, Pandas, MySQL, SQL, and Streamlit** to manage food listings and analyze provider contribution, food availability, receiver claims, meal-type demand, and claim outcomes. The analysis identified key supply and claim patterns and highlighted opportunities to improve provider-receiver matching, monitor claim outcomes, and prioritize near-expiry food.
 
 ---
 
-## ⚠️ Data Note
+##  Data Note
 
 The findings in this project are based on the dataset used for the application. Claim counts represent **claim records**, while food quantities represent quantities recorded in food listings. These metrics should not be interpreted as actual quantities successfully distributed unless the underlying claim data explicitly records the quantity claimed or delivered.
