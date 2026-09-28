@@ -384,6 +384,3 @@ Business problem → Data analysis → Findings → Insights → Recommendations
 
 ---
 
-##  Data Note
-
-The findings in this project are based on the dataset used for the application. Claim counts represent **claim records**, while food quantities represent quantities recorded in food listings. These metrics should not be interpreted as actual quantities successfully distributed unless the underlying claim data explicitly records the quantity claimed or delivered.
