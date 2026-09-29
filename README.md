@@ -432,7 +432,6 @@ Across these projects, I follow a consistent business-analysis approach:
 
 This approach helps ensure that the analysis is not limited to producing charts but instead connects the data to a practical business question.
 
---
 
 #  Dashboard & Analytics Capabilities
 
