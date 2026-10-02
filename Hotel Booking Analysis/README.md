@@ -1,4 +1,4 @@
-# 🏨 Hotel Booking Analysis: Customer Behavior & Cancellation Insights
+# Hotel Booking Analysis: Customer Behavior & Cancellation Insights
 
 ##  Project Overview
 
